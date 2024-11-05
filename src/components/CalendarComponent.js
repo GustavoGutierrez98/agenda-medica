@@ -44,7 +44,7 @@ const CalendarComponent = ({ appointments }) => {
       ) : selectedDate ? (
         <p>No hay citas para {selectedDate.toLocaleDateString()}</p>
       ) : (
-        <p>Seleccione un día para ver las citas.</p>
+        <p>Seleccione el día para ver las citas.</p>
       )}
     </div>
   );
